@@ -22,7 +22,7 @@ import { AppServices } from './app.services' // Import AppService
                         <td>{{cartoon.DOB}}</td>
                         <td>{{cartoon.email}}</td>
                         <td>{{cartoon.status}}</td>
-                        <td>{{cartoon.enroll}}</td>
+                        <td><a href="{{cartoon.enroll}}">{{cartoon.enroll}}</a></td>
                     </tr>
                 </tbody>
              </table>
