@@ -6,7 +6,7 @@ import { AppServices } from './app.services' // Import AppService
   selector: 'my-app',
   template: `<div class="container container-fluid">
              <h2>Directives and styling using attribute directives</h2><br>
-             <h4>The data for the below table is provided by a service and is styled by a structural directive</h4><br><br>
+             <h4>The data for the below table is provided by a service and is styled by an attribute directive</h4><br><br>
              <table class="table table-bordered">
                 <thead>
                     <tr [ngClass]="{classTableHead:true}">
