@@ -5,7 +5,7 @@ import { AppServices } from './app.services' // Import AppService
 @Component({
   selector: 'my-app',
   template: `<div class="container container-fluid">
-             <h2>Directives and styling using structural directives</h2><br>
+             <h2>Directives and styling using attribute directives</h2><br>
              <h4>The data for the below table is provided by a service and is styled by a structural directive</h4><br><br>
              <table class="table table-bordered">
                 <thead>
